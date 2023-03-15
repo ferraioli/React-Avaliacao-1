@@ -1,0 +1,105 @@
+#componente-cadastro{
+    border: 1px solid black;
+    width: 40%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #102766;
+}
+
+
+#componente-cadastro form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 343px;
+    height: 568px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+
+#componente-cadastro form #submit{
+    width: 287px;
+    height: 52px;
+    background-color: #E84118;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    margin: 50px;
+}
+
+#componente-cadastro h3{
+    margin: 45px;
+    font-size: 24px;
+}
+
+
+#componente-cadastro input, #componente-cadastro select{
+    width: 286px;
+    margin: 20px;
+    border: 0;
+    border-bottom: 1px solid #450B53; 
+    padding: 2px;
+    font-size: 18px;
+}
+
+
+#main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#componente-tarefas{
+    margin: 50px;
+    width: 100vh;
+}
+
+#card-tarefa{
+    padding: 25px;
+    width: 80vh;
+    border: 1px solid #c7c4c4;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.250);
+}
+
+
+#card-tarefa h2{
+    font-size: 20px;
+    color: #343434;
+    float: left;
+    font-weight: 600;
+}
+
+#data{
+    line-height: 30px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#categoria{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #343434;
+}
+
+#descricao{
+    float: left;
+    width: 94%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    overflow: auto;
+    word-wrap: break-word;
+    height: 40px;
+}
+
+
+img{
+    width: 20px;
+}
